@@ -45,6 +45,7 @@ mysql> LOAD DATA LOCAL INFILE '/Users/shivamsaluja/Documents/weatherDataProject/
 Step 12: For drawing graphs install  following:
 
 12 .1: Apache web server
+
 12.2: PHP
 
 Step 13: Establish the connection with MySQL Database using the hostname, username, password and database name.
