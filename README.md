@@ -1,5 +1,3 @@
-#plankLabs
-
 1: This repository code can be used to extract data from website weather.com and store it into a mySQL database.
 
 2: Extract data from mySQL in JSON format using PHP and draw Graphs.A sample graph in the repository (GraphofPinCodeVsTemp.png) is between pin code of cities of New York and temperature
@@ -43,3 +41,33 @@ mysql> CREATE TABLE wRecord(pin INT,temprature INT, sky conditions VARCHAR(255),
 Step 11: Load the file weatherdatatr.txt obtained after execution the bash script extractData(Step 5) in the above table.
 
 mysql> LOAD DATA LOCAL INFILE '/Users/shivamsaluja/Documents/weatherDataProject/weatherdataTr.txt' INTO TABLE wRecord COLUMNS TERMINATED BY '\t';
+
+Step 12: For drawing graphs install  following:
+
+12 .1: Apache web server
+12.2: PHP
+
+Step 13: Establish the connection with MySQL Database using the hostname, username, password and database name.
+
+Step 14: Execute the query to get the list of Pin Codes from DB and store them in a variable.
+
+Step 15: Iterate over the result set to build an array of maps where each map consists of two keys namely: label and value. The label stores the Pin Code and value contains the temperature of the city.
+
+Step 16: Encode the array of maps into JSON and then output the encoded JSON. (If JSON is something new for you, then we would recommend you to read about it here.)
+
+The integrated code of steps 12 to 16 is stored in a file named: chart_data.php at DocumentRoot.
+
+Step 17: Download FusionCharts from (http://www.fusioncharts.com/download/) and copy the required JavaScript files under js folder in DocumentRoot.
+
+Step 18: Download jQuery 2.x  from (http://jquery.com/download/) and copy it under the above-created js folder.
+
+Step 19: A chat with name chat_sample.html is created (refer to the file chat_sample.html in repository).
+
+Step 20: Fetch the required data from the server via an Ajax call using jQuery.
+
+Step 21: After retrieving the data from the server, initialize the FusionCharts object with the chart properties and chart data.
+
+The code for steps 20 and 21 in in file app.js
+
+Now load the HTML in the browser using the URL: http://localhost/chart_sample.html and you will get the chart GraphofPinCodeVsTemp.png.
+
