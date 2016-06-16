@@ -1,5 +1,7 @@
 # plankLabs
 
+This reository code can be used to extract data from website weather.com and store it into mySQL database.
+
 Step 1: Generate a API key for weather.com
 
 Step 2: Clone the git reposity wu to obtain its source code.
@@ -31,8 +33,3 @@ mysql> CREATE TABLE wRecord(pin INT,temprature INT, sky conditions VARCHAR(255),
 
 Load the file weatherdatatr.txt obtained after execution the bash script extractData(Step 5) in the above tabele. 
 mysql> LOAD DATA LOCAL INFILE '/Users/shivamsaluja/Documents/weatherDataProject/weatherdataTr.txt'  INTO TABLE wRecord COLUMNS TERMINATED BY '\t';
-
-
-
-
-
