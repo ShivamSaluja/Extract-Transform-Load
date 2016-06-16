@@ -4,8 +4,8 @@ This reository code can be used to extract data from website weather.com and sto
 
 Step 1: Generate a API key for weather.com
 
-Step 2: Clone the git reposity wu to obtain its source code.
-To obtain the source code for wu:
+Step 2: Clone the git reposity wu and obtain its source code.
+To obtain the source code for wu use command:
 git clone git://github.com/sramsay/wu.git
 or if you are behind a firewall type:
 git clone https://github.com/sramsay/wu.git
