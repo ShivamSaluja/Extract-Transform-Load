@@ -24,6 +24,8 @@ Step 4:Obtain Pin Codes of the Cities you want weather data for from website fed
 
 Step 5:Clone this repository using git clone. 
 
+Command to clone this repository:
+git clone https://github.com/ShivamSaluja/plankLabs.git
 
 Step 6:Run bash script extractData.
 
