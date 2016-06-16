@@ -9,7 +9,9 @@ Step 2: Clone the git reposity wu and obtain its source code.
 
 To obtain the source code for wu use command:
 git clone git://github.com/sramsay/wu.git
+
 or if you are behind a firewall type:
+
 git clone https://github.com/sramsay/wu.git
 
 
@@ -24,6 +26,7 @@ Step 5:Clone this repository using git clone.
 
 
 Step 6:Run bash script extractData.
+
 bash ./extractData
 
 
@@ -45,4 +48,5 @@ Step 10:Create Table in that database wRecord.
 mysql> CREATE TABLE wRecord(pin INT,temprature INT, sky conditions VARCHAR(255),wind VARCHAR(255) ,relative humidity VARCHAR(255) ,dewpoint VARCHAR(255), visibility DECIMAL(8,4));
 
 Step 11:Load the file weatherdatatr.txt obtained after execution the bash script extractData(Step 5) in the above tabele. 
+
 mysql> LOAD DATA LOCAL INFILE '/Users/shivamsaluja/Documents/weatherDataProject/weatherdataTr.txt'  INTO TABLE wRecord COLUMNS TERMINATED BY '\t';
