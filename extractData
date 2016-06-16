@@ -1,0 +1,11 @@
+rm weatherdata.txt
+rm weatherdataTr.txt
+
+while read  p <&3; do
+echo $p
+wu -conditions -s $p >> weatherdata.txt
+done 3< PinCodesofNY.txt
+
+gcc waetherdta.txt
+
+./a.out
