@@ -1,7 +1,9 @@
 # plankLabs
 
 1: This reository code can be used to extract data from website weather.com and store it into mySQL database.
-2: Extract data from mySQL in JSON format using php and draw Graphs. 
+
+2: Extract data from mySQL in JSON format using php and draw Graphs.A sample graph in the repository  (GraphofPinCodeVsTemp.png) is between pincode of cites of New York and temprature 
+
 
 Step 1: Generate a API key for weather.com
 
