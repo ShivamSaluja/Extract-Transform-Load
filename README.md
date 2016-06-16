@@ -32,7 +32,7 @@ Step 6:Run bash script extractData.
 bash ./extractData
 
 
-Step 7: Install mySql.
+Step 7: Install mySql (from https://www.mysql.com/).
 
 
 Step 8: In mysql create a database WeatherData.
@@ -49,6 +49,6 @@ Step 10:Create Table in that database wRecord.
 
 mysql> CREATE TABLE wRecord(pin INT,temprature INT, sky conditions VARCHAR(255),wind VARCHAR(255) ,relative humidity VARCHAR(255) ,dewpoint VARCHAR(255), visibility DECIMAL(8,4));
 
-Step 11:Load the file weatherdatatr.txt obtained after execution the bash script extractData(Step 5) in the above tabele. 
+Step 11:Load the file weatherdatatr.txt obtained after execution the bash script extractData(Step 5) in the above table. 
 
 mysql> LOAD DATA LOCAL INFILE '/Users/shivamsaluja/Documents/weatherDataProject/weatherdataTr.txt'  INTO TABLE wRecord COLUMNS TERMINATED BY '\t';
