@@ -1,4 +1,4 @@
-This repository can be used for the below purpose :
+<b>This repository can be used for the below purpose :</b>
 
 1: This repository code can be used to extract data from website weather.com and store it into a mySQL database.
 
@@ -6,7 +6,7 @@ This repository can be used for the below purpose :
 
 
 
-<b>Steps to perform above mentioned task</b>
+<b>Steps to perform above mentioned task : </b>
 
 Step 1: Generate an API key for weather.com
 
