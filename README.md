@@ -6,7 +6,7 @@ This repository can be used for the below purpose :
 
 
 
-</b>Steps to perform above mentioned task
+<b>Steps to perform above mentioned task</b>
 
 Step 1: Generate an API key for weather.com
 
