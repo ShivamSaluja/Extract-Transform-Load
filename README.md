@@ -1,6 +1,11 @@
+This repository can be used for the below purpose :
 1: This repository code can be used to extract data from website weather.com and store it into a mySQL database.
 
 2: Extract data from mySQL in JSON format using PHP and draw Graphs.A sample graph in the repository (GraphofPinCodeVsTemp.png) is between pin code of cities of New York and temperature
+
+
+
+Steps to perform above mentioned task
 
 Step 1: Generate an API key for weather.com
 
