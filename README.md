@@ -1,6 +1,6 @@
 <b>This repository can be used to :</b>
 
-1] Extract data from website weather.com and store it into a mySQL database.
+1] Extract data from website weather.com and store it into a mySQL database,
 
 and further
 
