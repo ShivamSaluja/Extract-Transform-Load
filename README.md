@@ -4,7 +4,9 @@
 
 and further
 
-2] Extract data from mySQL in JSON format using PHP and draw Graphs.A sample graph in the repository (GraphofPinCodeVsTemp.png) is between pin code of cities of New York and temperature
+2] Extract data from mySQL in JSON format using PHP and draw Graphs. 
+
+A sample graph in the repository (GraphofPinCodeVsTemp.png) is between pin code of cities of New York and temperature
 
 
 
