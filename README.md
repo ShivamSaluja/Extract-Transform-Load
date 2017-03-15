@@ -2,7 +2,7 @@
 
 1] Extract data from website weather.com and store it into a mySQL database,
 
-and further
+and
 
 2] Extract data from mySQL in JSON format using PHP to draw Graphs. 
 
